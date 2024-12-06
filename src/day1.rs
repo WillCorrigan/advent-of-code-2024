@@ -30,7 +30,7 @@ pub fn solve_part_1() {
         total += (item - list_two[indx]).abs();
     }
 
-    println!("total: {}", total);
+    println!("day 1 - part 1 total: {}", total);
 }
 
 pub fn solve_part_2() {
@@ -51,5 +51,5 @@ pub fn solve_part_2() {
         total += arr[0] * arr[1];
     }
 
-    println!("total: {}", total);
+    println!("day 1 - part 2 total: {}", total);
 }
